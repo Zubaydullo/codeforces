@@ -1,6 +1,9 @@
 # Exclude all compiled object files in subdirectories
 **/*.o
 
+# Exclude executable output files named "main" in all subdirectories
+**/main
+
 # Executable files
 a.out
 
