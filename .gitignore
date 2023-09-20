@@ -1,0 +1,18 @@
+# Exclude all compiled object files in subdirectories
+**/*.o
+
+# Executable files
+a.out
+
+# Compiled C programs
+*.exe
+
+# Temporary files
+*~
+
+# Dependency files
+*.d
+
+# Editor-specific files and directories
+.vscode/
+.idea/
