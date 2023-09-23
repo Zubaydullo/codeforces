@@ -17,7 +17,7 @@ int main(void)
         }
         row++;
     }
-
+    
     row_swaps = 0;
     col_swaps = 0;
     total_swaps = 0;
@@ -30,11 +30,8 @@ int main(void)
             if (nums[row][col] == 1)
             {
                 row_swaps = abs(row - 2);
-
                 col_swaps = abs(col - 2);
-
                 total_swaps = row_swaps + col_swaps;
-
                 printf("%d\n", total_swaps);
                 return (0);
             }
