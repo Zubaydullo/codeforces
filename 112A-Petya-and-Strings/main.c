@@ -39,3 +39,5 @@ int	ft_tolower(int c)
 	}
 	return (c);
 }
+
+int nums[10] = {2, , 5, , 7}
